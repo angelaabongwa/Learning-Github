@@ -1,0 +1,40 @@
+These are the notes, I will be taking from the Git & Github Tutorial from Faraday
+
+Git 
+  version control sytsem 
+   a version control system let you see all the chnages you make in code over time 
+   note: git is NOT github
+    git hub is website that stores all your repositories 
+
+CLI - Commond line interface
+  where you text commands and run them
+
+Repository 
+  folder where you store in your code
+
+Git commands 
+  all of these start with "git <command>"
+    clone- brings repository that it hosted someehre (e.g Github) into a directory on your machine 
+
+    add- Tracks your files "captures" changes you've made so that you can commit then 
+
+    commit- saves files in Git 
+      *you must have a comment that descirbes the change you are committing e.g git commit <file> -m 'added a comma'
+      *note: committing doesn't add 
+
+    push- uploads your commits to the remote host like Github 
+          You need an SSH key for this to work 
+            once you create it, you can dind your key using a number of commands:
+             grep, cat, find 
+          You must config your key and add it to the SSH agent 
+          Then you need a personal token because github removed support for password authentification Aug 2021
+      To create personal token:
+        go to settings on profile 
+        Developer seetings
+        generate personal token
+
+    pull - downlaod changes from remote repo (repository) to your machine  
+
+    status- used to determine any changes you've made in repo
+
+
